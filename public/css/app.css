@@ -1,0 +1,298 @@
+body {
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 !important;
+}
+
+*::-webkit-scrollbar {
+  width: 0px;
+}
+
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.wrapper {
+  background-color: #ecf1f5 !important;
+}
+
+.main-header {
+  position: fixed !important;
+  width: 100%;
+}
+
+.main-sidebar {
+  position: fixed !important;
+  height: 100vh;
+  background-color: #222d32 !important;
+}
+
+.content-header {
+  height: 50px;
+}
+
+.content {
+  padding: 15 0;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mr-0 {
+  margin-right: 0 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.ml-0 {
+  margin-left: 0 !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.m-0-auto {
+  margin: 0 auto !important;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-regular {
+  font-weight: normal;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+span.select2.select2-container {
+  width: 100% !important;
+}
+
+*,
+table {
+  font-size: 14px;
+}
+
+.dataTables_paginate span .paginate_button {
+  font-size: 12px;
+  line-height: 1.5;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 4px 10px !important;
+}
+
+td.currency {
+  text-align: right;
+}
+
+th.currency {
+  text-align: right;
+}
+
+.dataTables_wrapper .table {
+  margin-bottom: 0px;
+}
+
+.dataTables_wrapper #data-table {
+  margin-bottom: 20px;
+}
+
+.dataTables_wrapper .dataTables_length {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.dataTables_wrapper .dataTables_length select {
+  border-color: #ddd;
+  border-radius: 2px;
+  background-color: #ffffff !important;
+}
+
+.dataTables_wrapper .dataTables_length label {
+  font-weight: normal !important;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.dataTables_wrapper .dataTables_filter label {
+  font-weight: normal !important;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  padding: 3px;
+  line-height: 12px;
+}
+
+.dataTables_wrapper #data-table {
+  border: 1px solid #ddd;
+}
+
+.dataTables_wrapper table#data-table thead th {
+  padding: 7px 10px;
+  font-weight: normal;
+  border-bottom: 0px;
+}
+
+.dataTables_wrapper table#data-table tfoot th {
+  border-top: 1px solid #ddd;
+  padding: 7px 10px;
+  font-weight: normal;
+  background: #fff;
+}
+
+.dataTables_wrapper table#data-table td {
+  background: #fcfcfc;
+  border-top: 1px solid #ddd;
+}
+
+.dataTables_wrapper .dataTables_info {
+  margin-bottom: 20px;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+  margin-bottom: 20px;
+}
+
+.dataTables_wrapper .dataTables_paginate a {
+  background: #fff !important;
+  border: 1px solid #ddd !important;
+  border-radius: 2px !important;
+  margin-right: 2px !important;
+  padding: 0px 10px !important;
+  color: #aaa !important;
+}
+
+.dataTables_wrapper .dataTables_paginate a:hover {
+  background: #f8f8f8 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate a.current {
+  background: #f8f8f8 !important;
+}
+
+table.dataTable tbody th,
+table.dataTable tbody td {
+  padding: 8px 10px !important;
+}
+
+table.dataTable thead th,
+table.dataTable thead td {
+  padding: 10px 10px !important;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead th:after {
+  content: none !important;
+}
+
+span.req_star {
+  color: red !important;
+}
+
+.datepicker {
+  padding: 6px 12px !important;
+}
+
+.fixed-brand {
+  width: auto;
+}
+
+.main-header .logo .logo-mini {
+  padding: 5px;
+}
+
+.main-header .logo .logo-mini img {
+  width: 100%;
+}
+
+.main-header .logo .logo-lg {
+  padding: 5px;
+  text-align: left;
+}
+
+.main-header .logo .logo-lg img {
+  width: 90%;
+}
+
+.business {
+  display: none;
+}
+
+.im-box-body {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.box {
+  padding: 0 15px !important;
+}
+
+.box-header h4 {
+  line-height: 34px;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.box-header h4 strong {
+  font-size: 18px;
+}
+
+.im-box-body form {
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 0;
+}
+
+.copyright-content > li > a {
+  padding: 0 !important;
+  display: inline-block !important;
+  font-size: 12px !important;
+  border-left: none !important;
+}
+
+.copyright-content > li:hover > a {
+  background: unset !important;
+  color: #3d8dbc !important;
+}
+
+.copyright-content > li {
+  padding: 10 15 !important;
+}
+
+.login-logo > a > img,
+.register-logo > a > img {
+  width: 100%;
+  margin-left: -5px;
+}
+
